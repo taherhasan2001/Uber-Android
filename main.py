@@ -6,7 +6,7 @@ import pressMouse
 import pyautogui
 import os
 from datetime import datetime
-
+import sendEmail
 
 
 import takeScreenshot
@@ -45,7 +45,7 @@ def start():
             filename = f"{strDollars}_screenshot{random.randint(1000, 9999)}.png"
             takeScreenshot.start(filename, region=allScreenRagion)
             pressMouse.pressExit()
-
+            sendEmail.start(filename)
 
         else:
             # Add your logic here for when dollars is not greater than 4

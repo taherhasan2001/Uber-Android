@@ -1,3 +1,2 @@
-import pressMouse
-
-pressMouse.pressExit()
+import sendEmail
+sendEmail.start('screenshot.png')

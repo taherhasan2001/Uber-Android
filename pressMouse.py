@@ -54,12 +54,14 @@ def pressAccept():
     print("Clicked Accept")
 def pressExit():
     click_at(1107, 560)
-    click_at(1107, 600)
-    click_at(1107, 640)
-    click_at(1107, 680)
-    click_at(1107, 620)
-    click_at(1107, 620)
-    click_at(1107, 580)
+    click_at(1107, 610)
+    click_at(1107, 660)
+    click_at(1107, 710)
+    click_at(1107, 760)
+    click_at(1107, 510)
+    click_at(1107, 460)
+    click_at(1107, 410)
+
     print("Clicked Exit")
 
 
