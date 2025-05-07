@@ -74,6 +74,10 @@ You can configure:
 - Screen coordinates for tapping "Accept" or "Decline"
 
 ---
+📹 **Demo Video**:  
+[v.mp4](v.mp4)
+
+---
 
 ## ⚠️ Disclaimer
 
