@@ -39,13 +39,13 @@ def start():
         beep()
         if dollars > lowestPriceAccepted:
             # Add your logic here for when dollars is greater than 4
-            # pressMouse.pressAccept()
-            # return 1
-            strDollars= str(dollars)
-            filename = f"{strDollars}_screenshot{random.randint(1000, 9999)}.png"
-            takeScreenshot.start(filename, region=allScreenRagion)
-            pressMouse.pressExit()
-            sendEmail.start(filename)
+            pressMouse.pressAccept()
+            return 1
+            # strDollars= str(dollars)
+            # filename = f"{strDollars}_screenshot{random.randint(1000, 9999)}.png"
+            # takeScreenshot.start(filename, region=allScreenRagion)
+            # pressMouse.pressExit()
+            # sendEmail.start(filename)
 
         else:
             # Add your logic here for when dollars is not greater than 4
